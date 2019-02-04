@@ -1,0 +1,178 @@
+body {
+    background-color: #F5F5F5;
+}
+
+h1 {
+    font-family: Andada;
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px
+}
+
+.footer {
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #303481;
+    height: 15px;
+    border-top: 4px solid #F5F8FA;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+.uk-card-title {
+    font-size: 34px;
+}
+
+.uk-button-primary {
+    background-color: #303481;
+}
+
+.partofspeech {
+    font-style: italic;
+}
+
+i, em {
+    font-style: italic;
+}
+
+.inputBackground {
+    background-color: #303481;
+}
+
+.uk-card {
+    text-align: center;
+}
+
+.searchWord {
+    font-family: Andada;
+    font-size: 36px;
+}
+
+#save-term {
+    text-transform: none;
+    font-size: 22px;
+}
+
+#stackCounter {
+    font-family: Andada;
+    font-style: italic;
+    font-size: 58px;
+    text-align: left;
+    margin: 15px;
+}
+
+#definition {
+    font-family: Andada;
+    font-size: 18px;
+    color: black;
+    text-indent: 1em;
+    margin-top: 10px;
+    text-align: justify;
+    line-height: 30px;
+
+}
+
+#ownDefinition {
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#textarea_feedback {
+    text-align: right;
+}
+
+#navLogo {
+    height: 100px;
+}
+
+#term-input {
+    font-family: Helvetica, sans-serif;
+    background-color: #F5F8FA;
+    color: black;
+    font-size: 20px;
+}
+
+/* Scape Stack Page */
+.stackWord {
+    font-family: Andada;
+}
+
+.stackDef {
+    text-align: left;
+    font-family: Andada;
+}
+
+.stackHr {
+    margin-top: 20px;
+}
+
+/* Practice Page */
+h4 {
+    color: #303481;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.defDiv {
+    background-color: #F5F8FA;
+}
+
+#wordDiv {
+    font-size: 48px;
+}
+
+#wordDefDiv {
+    text-align: left;
+    font-size: 28px;
+}
+
+#wordCountDiv {
+    font-size: 40px;
+}
+
+#wordLearnedDiv {
+    font-size: 40px;
+    font-style: italic;
+}
+.table1 {
+    background-color: #303381;
+}
+ p {
+     margin: 10px;
+ }
+
+
+/* Fonts */
+@font-face {
+    font-family: "Andada";
+    src: url("../fonts/Andada-Bold.otf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Andada";
+    src: url("../fonts/Andada-Italic.otf");
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: "Andada";
+    src: url("../fonts/Andada-BoldItalic.otf");
+    font-weight: bold;
+    font-style: italic, oblique;
+}
+
+@font-face {
+    font-family: "Andada";
+    src: url("../fonts/Andada-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: Andada;
+}
