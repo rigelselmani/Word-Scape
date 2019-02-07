@@ -1,5 +1,4 @@
-var word;
-var scapeCounter = localStorage.length; 
+
 $("#stackCounter").html(scapeCounter);
 
 function displaySearchTerm(){
@@ -7,10 +6,7 @@ function displaySearchTerm(){
     
     word= $("#term-input").val().trim();
     console.log(word);
-    // var key= "?key=1f40dde8-50d6-4eb6-9168-6f465c469eb9";
-    var key = "?06cc2566-21f4-43bf-b336-4d2b93510efa";
-    var queryUrl=  "https://www.dictionaryapi.com/api/v3/references/collegiate/json/voluminous?key=your-api-key";
-    // var queryUrl= "https://www.dictionaryapi.com/api/v3/references/collegiate/json/";
+
 $("#definition").empty();
 
 $.ajax({
