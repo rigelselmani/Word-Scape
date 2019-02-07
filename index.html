@@ -1,5 +1,56 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf8">
+        <title>Word Stack &#8226; Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Favicon source: https://iconmonstr.com/book-17-png/ -->
+        <link rel="icon" href="./assets/images/logo (2).png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/css/uikit.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/js/uikit.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/js/uikit-icons.min.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+    </head>
+    <body>
+        <nav class="uk-navbar-container" uk-navbar>
+            <div class="uk-navbar-left">
+                <img id="navLogo" src="./assets/images/logo (2).png" alt="Word Stack logo">
+            </div>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="">Home</a></li>
+                    <li class="uk-parent"><a href="./new.html">Word &#8226; Bank</a></li>
+                    <li class="uk-parent"><a href="./practice.html">Practice!</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Header and word input -->
+        <div class="uk-section uk-light inputBackground">
+            <div class="uk-container">
+                <div uk-grid>
+                    <div class="uk-width-2-3">
+                        <form id="input" class="uk-form">
+                            <div class="uk-align-center">
+                                <label for="term-input" class="uk-form-label searchWord">Search a &#8226; <i>word</i></label>
+                            </div>
+                            <div class="uk-align-center">
+                                <input type="text" id="term-input" class="uk-input uk-form-width-large" autofocus>
+                                <input id="add-definition" type="submit" value="Search" class="search uk-button uk-button-default">
+                            </div>
+                        </form>
+                     </div>
+                    <!-- Hold counter -->
+                    <div class="uk-width-1-3">
+                        <h1>Word Stack</h1>
+                        <div id="stackCounter"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 <head>
     <meta charset="utf8">
@@ -44,20 +95,12 @@
                             <input id="add-definition" type="submit" value="Search" class="search uk-button uk-button-default">
                         </div>
                     </form>
-                </div>
-                <!-- Hold counter -->
-                <div class="uk-width-1-3">
-                    <h1>Scape &#8226; Stack words</h1>
-                    <div id="stackCounter"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div>
-        <br>
-        <hr class="uk-divider-icon">
-    </div>
+                    <!-- Button to save to  stack -->
+                    <button id="save-term" class="save uk-width-1-1 uk-button uk-button-primary uk-button-medium">Save to your Word &#8226; Bank</button>
+                    <hr>
+                    <div id="definition">
+                    <!-- Definitions from code go in here -->
+                    </div>            
 
     <div class="uk-container uk-height-large uk-height-viewport">
         <div uk-grid>
@@ -75,6 +118,12 @@
                         <textarea class="uk-textarea defPractice" id="ownDefinition" rows="5" , columns="20" maxlength="140"
                             placeholder="Type the definition in your own words here or copy and paste from below. Limit 140 characters."></textarea>
 
+                <!-- IMAGE divs go here -->
+                <div class="uk-width-1-3">
+                    
+                    <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                        <h3 class="uk-card-title"><i>Image</i> &#8226; word</h3>
+                        
                     </div>
                 </form>
                 <!-- Button to save to scape stack -->
@@ -98,34 +147,33 @@
                 <div id="image">
                     <!-- Images from code go here -->
                 </div>
-            </div>
+    
+                <!-- PRONUNCIATION divs go here -->
+                <div class="uk-width-1-3">
+                    <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                            <h3 class="uk-card-title"><i>Sound</i> &#8226; word</h3>
+                    </div>
 
-            <!-- PRONUNCIATION divs go here -->
-            <div class="uk-width-1-3">
-                <div class="uk-card uk-card-default uk-card-small uk-card-body">
-                    <h3 class="uk-card-title"><i>Pronunce</i> &#8226; scape</h3>
-                </div>
-
-                <div>
-                    <div id="pronunciations">
-                        <!-- Part of speech from code goes here -->
-                        <!-- Written pronunciation from code goes here -->
-                        <!-- Audio controls from code goes here -->
+                    <div>
+                        <div id="pronunciations">
+                            <!-- Part of speech from code goes here --> 
+                            <!-- Written pronunciation from code goes here -->
+                            <!-- Audio controls from code goes here -->
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="./assets/javascript/logic.js"></script>
-    <script src="./assets/javascript/definitions.js"></script>
-    <script src="./assets/javascript/googlesearchapi.js"></script>
-
-</body>
-<footer class="footer">
-    <div>
-        <p>Copyright &copy; 2019</p>
-    </div>
-</footer>
-
-</html>
+        <script src="./assets/javascript/logic.js"></script>
+        <script src="./assets/javascript/definitions.js"></script>
+        <script src="./assets/javascript/googlesearchapi.js"></script>
+        
+        </body>
+        <footer class="footer">
+            <div>
+                <p>Copyright &copy; 2019</p>
+            </div>
+        </footer>
+    </html>
