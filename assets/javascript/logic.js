@@ -146,12 +146,12 @@ $(".search").on("click", function(event){
 
 
 // ********** LOGIC FOR PRACTICE.HTML **********
-var wordArray = [];
-var wordLearned = 0;
-var outerIndex = 0;
-var wordIndex = 0;
-var defIndex = 1;
-var stackEnded = false;
+// var wordArray = [];
+// var wordLearned = 0;
+// var outerIndex = 0;
+// var wordIndex = 0;
+// var defIndex = 1;
+// var stackEnded = false;
 
 // Grab words and definitions from local storage and push to array
 function popArray() {
