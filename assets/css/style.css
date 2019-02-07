@@ -3,7 +3,8 @@ body {
 }
 
 h1 {
-    font-family: Andada;
+    font-family: arial black;
+    font-weight: bold;
     font-size: 24px;
 }
 
@@ -17,7 +18,7 @@ p {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #303481;
+    background: linear-gradient(to bottom, #0033cc 0%, #99ccff 100%);
     height: 15px;
     border-top: 4px solid #F5F8FA;
     text-align: center;
@@ -27,10 +28,10 @@ p {
 
 .uk-card-title {
     font-size: 34px;
-}
+    }
 
 .uk-button-primary {
-    background-color: #303481;
+    background: linear-gradient(to bottom, #0033cc 0%, #99ccff 100%);
 }
 
 .partofspeech {
@@ -39,10 +40,12 @@ p {
 
 i, em {
     font-style: italic;
+    
 }
 
 .inputBackground {
-    background-color: #303481;
+    background: linear-gradient(to bottom, #0033cc 0%, #99ccff 100%);
+    
 }
 
 .uk-card {
@@ -50,7 +53,7 @@ i, em {
 }
 
 .searchWord {
-    font-family: Andada;
+    font-family: arial black;
     font-size: 36px;
 }
 
@@ -60,7 +63,7 @@ i, em {
 }
 
 #stackCounter {
-    font-family: Andada;
+    font-family: arial black;
     font-style: italic;
     font-size: 58px;
     text-align: left;
@@ -68,7 +71,7 @@ i, em {
 }
 
 #definition {
-    font-family: Andada;
+    font-family: arial black;
     font-size: 18px;
     color: black;
     text-indent: 1em;
@@ -92,7 +95,7 @@ i, em {
 }
 
 #term-input {
-    font-family: Helvetica, sans-serif;
+    font-family: Century Gothic, sans-serif;
     background-color: #F5F8FA;
     color: black;
     font-size: 20px;
@@ -100,12 +103,12 @@ i, em {
 
 /* Scape Stack Page */
 .stackWord {
-    font-family: Andada;
+    font-family: Century Gothic;
 }
 
 .stackDef {
     text-align: left;
-    font-family: Andada;
+    font-family: Century Gothic;
 }
 
 .stackHr {
@@ -150,29 +153,29 @@ h4 {
 
 /* Fonts */
 @font-face {
-    font-family: "Andada";
-    src: url("../fonts/Andada-Bold.otf");
+    font-family: "Century Gothic";
+    src: url("../fonts/Century Gothic-Bold.otf");
     font-weight: bold;
 }
 @font-face {
-    font-family: "Andada";
-    src: url("../fonts/Andada-Italic.otf");
+    font-family: "Century Gothic";
+    src: url("../fonts/Century Gothic-Italic.otf");
     font-style: italic, oblique;
 }
 @font-face {
-    font-family: "Andada";
-    src: url("../fonts/Andada-BoldItalic.otf");
+    font-family: "Century Gothic";
+    src: url("../fonts/Century Gothic-BoldItalic.otf");
     font-weight: bold;
     font-style: italic, oblique;
 }
 
 @font-face {
-    font-family: "Andada";
-    src: url("../fonts/Andada-Regular.otf");
+    font-family: "Century Gothic";
+    src: url("../fonts/Century Gothic-Regular.otf");
     font-weight: normal;
     font-style: normal;
 }
 
 * {
-    font-family: Andada;
+    font-family: Century Gothic;
 }
