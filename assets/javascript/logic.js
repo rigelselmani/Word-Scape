@@ -20,14 +20,15 @@ function popStackArray() {
         var stackWord = localStorage.key(i);
         var stackDef = localStorage.getItem(stackWord);
         stackArray.push([stackWord, stackDef]);
+        
     }
     console.log(stackArray);
 
     for (i=0; i < stackArray.length; i++) {
         console.log(stackWord);
         console.log(stackDef);
-        var stackWord = localStorage.key(i);
-        var stackDef = localStorage.getItem(stackWord);
+        stackWord = localStorage.key(i);
+        stackDef = localStorage.getItem(stackWord);
         var container = $("#stackGrid");
         var emptyDiv = $("<div>");
         var flashcards = $("<div>").addClass("uk-card uk-card-default uk-card-hover uk-card-body");

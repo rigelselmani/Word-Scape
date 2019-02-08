@@ -1,10 +1,10 @@
 
 $("#stackCounter").html(scapeCounter);
 
-function displaySearchTerm(){
+function displaySearchTerm() {
 
-    
-    word= $("#term-input").val().trim();
+
+    word = $("#term-input").val().trim();
     console.log(word);
 
 $("#definition").empty();
@@ -78,6 +78,22 @@ if (response[i] == undefined) {
 
 }
 
+<<<<<<< HEAD
+$(".save").on("click", function (event) {
+
+    var ownDef = $("#ownDefinition").val().trim();
+    for (var i = 0; i < ownDef.length; i++) {
+
+        var newDef = [];
+        newDef.push(ownDef);
+        localStorage.setItem(word, ownDef);
+        $("#ownDefinition").val(""); // Added by Rafael to clear out textarea box after Save is clicked
+        scapeCounter = localStorage.length;
+        console.log(scapeCounter);
+        $("#stackCounter").html(scapeCounter);
+        $("#stackCounter").addClass(uk - animation - shake);
+        // localStorage.setItem("Terms: " , JSON.stringify(storageInfoG));
+=======
 $(".save").on("click", function(event){
     
     var ownDef= $("#ownDefinition").val().trim();
@@ -92,15 +108,16 @@ $(".save").on("click", function(event){
     $("#stackCounter").html(scapeCounter);
     $("#stackCounter").addClass(uk-animation-shake);
     // localStorage.setItem("Terms: " , JSON.stringify(storageInfoG));
+>>>>>>> 7e64d51f812b56b8b42a3849817b86020c6cd7a3
     }
- }); //end of click listener
+}); //end of click listener
 
 
-$(".search").on("click", function(event){
-   
+$(".search").on("click", function (event) {
+
     event.preventDefault();
 
-    var word= $("#term-input").val().trim();
+    var word = $("#term-input").val().trim();
 
     displaySearchTerm();
 
