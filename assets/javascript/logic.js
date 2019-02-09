@@ -145,13 +145,13 @@ $(".search").on("click", function(event){
 }); // End of search button click function
 
 
-// ********** LOGIC FOR PRACTICE.HTML **********
-// var wordArray = [];
-// var wordLearned = 0;
-// var outerIndex = 0;
-// var wordIndex = 0;
-// var defIndex = 1;
-// var stackEnded = false;
+// // ********** LOGIC FOR PRACTICE.HTML **********
+var wordArray = [];
+var wordLearned = 0;
+var outerIndex = 0;
+var wordIndex = 0;
+var defIndex = 1;
+var stackEnded = false;
 
 // Grab words and definitions from local storage and push to array
 function popArray() {
@@ -160,6 +160,8 @@ function popArray() {
         var word = localStorage.key(i);
         var def = localStorage.getItem(word);
         wordArray.push([word, def]);
+        // localStorage.clear();
+
     }
 }
 
