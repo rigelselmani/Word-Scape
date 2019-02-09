@@ -2,7 +2,7 @@ var word;
 
 function displaySearchImage(){
     word= $("#term-input").val().trim();
-    var key= "?key=11502071-ba3908e891baf3bab9b03bc38";
+    var key= "?key=11051593-a4e6d6adfc2d65d6b9612b399&q";
     var queryUrl= "https://pixabay.com/api/";
     $("#image").empty();
     $.ajax({
