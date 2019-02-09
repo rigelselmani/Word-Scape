@@ -1,8 +1,5 @@
 body {
-    background: #215f00;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #e4e4d9, #215f00);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #e4e4d9, #215f00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background-color: #F5F5F5;
 }
 
 h1 {
@@ -13,12 +10,6 @@ h1 {
 
 p {
     font-size: 18px
-}
-#stackGrid{
-    background-color: #813062;
-}
-.color {
-    background-color: #813062;
 }
 
 .footer {
@@ -121,12 +112,12 @@ i, em {
 }
 
 .stackHr {
-    margin-top: 0px;
+    margin-top: 20px;
 }
 
 /* Practice Page */
 h4 {
-    color: #813062;
+    color: #303481;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -153,7 +144,7 @@ h4 {
     font-style: italic;
 }
 .table1 {
-    background-color: #813062;
+    background-color: #303381;
 }
  p {
      margin: 10px;
