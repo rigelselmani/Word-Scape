@@ -9,7 +9,7 @@ Minoj Khadgi
 
 Mengistu Tadesse
 
-Gralyn
+Gralyn Stokes
 
 ## Word Scape
 # Project Description:
