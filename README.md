@@ -1,15 +1,15 @@
 ### Word Scape
-## Project #1 – Group "red
+## Project #1 – Group "RED"
 GW Coding Bootcamp 2018
 
 ## Team Members
 Regel Selmani
 
-Minoj Khadgi
+Minoj Khadgi (email- gwminoj@gmail.com)
 
-Mengistu Tadesse
+Mengistu Tadesse (email mengejemb@gmail.com)
 
-Gralyn
+Gralyn (email- mrstokes15@gmail.com)
 
 ## Word Scape
 # Project Description:
