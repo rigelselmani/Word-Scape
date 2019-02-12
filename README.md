@@ -9,7 +9,7 @@ Minoj Khadgi (email- gwminoj@gmail.com)
 
 Mengistu Tadesse (email mengejemb@gmail.com)
 
-Gralyn (email- mrstokes15@gmail.com)
+
 
 ## Word Scape
 # Project Description:
