@@ -1,6 +1,6 @@
 ### Word Scape
 
-file:///C:/Users/rigel/apps/Project-ine-Repo/index.html
+https://rigelselmani.github.io/Project-ine-Repo/
 
 ## Project #1 – Group "RED"
 GW Coding Bootcamp 2018
