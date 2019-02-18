@@ -1,4 +1,7 @@
 ### Word Scape
+
+file:///C:/Users/rigel/apps/Project-ine-Repo/index.html
+
 ## Project #1 – Group "RED"
 GW Coding Bootcamp 2018
 
