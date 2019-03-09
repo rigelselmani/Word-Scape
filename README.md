@@ -6,7 +6,7 @@ https://rigelselmani.github.io/Project-ine-Repo/
 GW Coding Bootcamp 2018
 
 ## Team Members
-Regel Selmani
+Regel Selmani (email rigelrigelselmani@hotmail.com )
 
 Minoj Khadgi (email- gwminoj@gmail.com)
 
