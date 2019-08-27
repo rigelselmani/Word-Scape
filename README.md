@@ -5,7 +5,7 @@ https://rigelselmani.github.io/Word-Scape/
 GW Coding Bootcamp 2018
 
 ## Team Members
-Regel Selmani (email rigelrigelselmani@hotmail.com )
+Rigel Selmani (email rigelrigelselmani@hotmail.com )
 
 Minoj Khadgi (email- gwminoj@gmail.com)
 
